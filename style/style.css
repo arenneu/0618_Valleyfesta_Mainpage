@@ -45,8 +45,8 @@ nav#gnb a{
     display: inline-block;
 }
 
-li.mainLi:not(last-child) a{
-    border-bottom: none;
+li.mainLi:not(:last-child) a{
+    border-bottom: none !important;
 }
 
 /* header#header */
@@ -146,3 +146,32 @@ div#contents{
 }
 
 /* div#contents */
+
+/* footer#footer */
+
+div#companyInfo{
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    -o-flex: 1;
+    flex: 1;
+}
+
+#footer address{
+    height: 50px;
+    line-height: 50px;
+}
+
+div#footerlogo, div#familysite{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+div#familysite select{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* footer#footer */
