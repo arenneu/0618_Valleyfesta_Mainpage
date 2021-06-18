@@ -9,6 +9,8 @@ div#wrap{
 
 /*div#wrap*/
 
+/* header#header */
+
 header#header{
     width: 200px;
 }
@@ -18,9 +20,9 @@ header#header{
     padding: 20px 0;
 }
 
-nav#gnb{
+/*nav#gnb{
     border: 1px solid #000;
-}
+}*/
 
 /*li.mainLi{
     border: 1px solid #000;
@@ -46,3 +48,101 @@ nav#gnb a{
 li.mainLi:not(last-child) a{
     border-bottom: none;
 }
+
+/* header#header */
+
+/*main#main*/
+
+main#main{
+    width: 800px;
+}
+
+/* main#main */
+
+/* div#slide */
+
+div#slide{
+    position: relative;
+}
+
+div#slide span{
+    width: 400px;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 14px;
+    text-align: center;
+    border-radius: 10px;
+
+    background-color: rgba(255, 255, 255, 0.80);
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* div#contents */
+
+div#contents{
+    justify-content: space-around;
+}
+
+#contents>div{
+    padding: 5px;
+}
+
+#contents>div#notice{
+    width: 300px;
+}
+
+#contents>div#gallery{
+    width: 300px;
+}
+
+#contents>div#shortcut{
+    width: 190px;
+}
+
+#contents button{
+    padding: 21px;
+    font-weight: bold;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-bottom: #eee;
+    padding: 4px 14px;
+    margin-left: 19px;
+
+    position: relative;
+    top: 1px;
+}
+
+#contents div.tabContents{
+    border: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+#contents td{
+    font-size: 15px;
+}
+
+#contents div#notice td{
+    line-height: 29px;
+}
+
+#contents div#notice td:first-child {
+    padding-right: 16px;
+}
+
+#contents div#gallery td{
+    border: 1px solid #000;
+}
+
+#contents div#gallery table{
+    margin: 0 auto;
+}
+
+#contents div#shortcut{
+    padding-top: 17px;
+}
+
+/* div#contents */
